@@ -6,6 +6,10 @@
 
 https://port-0-container-128y2k2llv9ia95q.sel5.cloudtype.app/
 
+지점 정보 GET Test
+
+https://port-0-container-128y2k2llv9ia95q.sel5.cloudtype.app/branch
+
 ## Docker Image
 
 leejunghyeok/cheese:1.4
