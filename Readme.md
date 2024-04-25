@@ -2,13 +2,9 @@
   🧀 치즈한장 백엔드
 </h1>
 
-## cloudtype docker container, Maria DB 배포
-
-https://port-0-container-128y2k2llv9ia95q.sel5.cloudtype.app/
-
 ### 지점 정보 GET Test
 
-https://port-0-container-128y2k2llv9ia95q.sel5.cloudtype.app/branch
+http://cheese.ap-northeast-2.elasticbeanstalk.com/branch
 
 ## Docker Image
 
@@ -50,9 +46,12 @@ beanstalk docker 배포
 -   새로운 환경 생성
 -   플랫폼 docker, 로컬 코드 Dockerrunner.aws.json 업로드
 
+http://cheese.ap-northeast-2.elasticbeanstalk.com
+
 AWS RDS 인스턴스 생성
 
 -   보안 그룹 인바운드, 아웃바운드 설정
 -   로컬 Workbench에서 연결
 -   cheese db structure/data import
 -   Cheese/src/resource/application.properties DB url 수정
+-   AWS EC2 instance와 RDS instance 연동됨
