@@ -42,4 +42,17 @@ leejunghyeok/cheese:1.4
 
 ### 4.25
 
--   TODO: frontend 수정, vercel 배포
+Cloudtype 가동 제한: 1일 1회 정지됨
+-> AWS에 배포
+
+beanstalk docker 배포
+
+-   새로운 환경 생성
+-   플랫폼 docker, 로컬 코드 Dockerrunner.aws.json 업로드
+
+AWS RDS 인스턴스 생성
+
+-   보안 그룹 인바운드, 아웃바운드 설정
+-   로컬 Workbench에서 연결
+-   cheese db structure/data import
+-   Cheese/src/resource/application.properties DB url 수정
