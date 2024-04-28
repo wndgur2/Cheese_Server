@@ -6,13 +6,13 @@
 </h3>
 
 <p align='center'>
-  Public Docker Image: leejunghyeok/cheese:1.4
+  Public Docker Image: leejunghyeok/cheese-redis:1.2
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <a href="http://cheese.ap-northeast-2.elasticbeanstalk.com/branch">
  try out GET API (지점 정보)
- </a>
+ </a> -->
 </p>
 
 <p align="center">
@@ -21,12 +21,12 @@
   </a>
 </p>
 
-## 기록
+## 서버, DB 배포 기록
 
 <details>
   <summary><em>Cloudtype 배포 (중지됨)</em></summary>
 
-### 4.23 cloudtype 백엔드 배포 (중지됨)
+### 4.23 cloudtype 백엔드 배포
 
 -   mvn package: ROOT.war 생성
 
@@ -42,7 +42,7 @@
 
 </br>
 
-### 4.24 cloudtype MariaDB 배포, 연동 (중지됨)
+### 4.24 cloudtype MariaDB 배포, 연동
 
 -   Mysql Workbench에서 기존 local database의 structure/data export
 
@@ -84,7 +84,7 @@ Dockerrunner.aws.json
 
 http://cheese.ap-northeast-2.elasticbeanstalk.com
 
-### AWS RDS 인스턴스 생성
+### AWS RDS 인스턴스 생성 (중지됨)
 
 -   보안 그룹 인바운드, 아웃바운드 설정
 
@@ -94,4 +94,4 @@ http://cheese.ap-northeast-2.elasticbeanstalk.com
 
 -   Cheese/src/resource/application.properties DB url 수정
 
-http://cheese.ap-northeast-2.elasticbeanstalk.com/branch
+-> 2024.04.28 비용 문제로 DB 배포 중지
